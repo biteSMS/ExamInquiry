@@ -24,6 +24,9 @@ class Move {
 let options = $('.options div');
 let move = new Move('main div');
 let isMoving = false;
+$(window).resize(function() {
+    location.reload();
+  });
 options.bind('click', function () {
     if (!isMoving) {
         isMoving = true;
