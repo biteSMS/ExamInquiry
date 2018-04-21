@@ -2,7 +2,7 @@
 
 ```
 $npm install
-$node server.js
+$npm start
 ```
 
 更改ajax的url为https://raw.githubusercontent.com/biteSMS/ExamAPI/master/empty.json 可查看信息为空时的状态。
